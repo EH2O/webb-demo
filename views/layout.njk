@@ -7,7 +7,12 @@
         <link rel="stylesheet" href="/stylesheets/style.css" />
     </head>
     <body>
+        <main class="contain">
+       
+        {%include "comp/_nav.njk"%}
         {% block content %}
         {% endblock %}
+         {%include "comp/footer.njk"%}     
+        </main>
     </body>
 </html>
